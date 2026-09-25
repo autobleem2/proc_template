@@ -1,0 +1,10 @@
+# proc_psnext C++ code style: LLVM with 4-space indents and 120 columns, matching the launcher's own
+# autobleem/.clang-format, plus two choices of its own - access modifiers at the class's column and no
+# top-level function collapsed onto one line. tools/format.sh [--check] runs it over the tree.
+# Requires clang-format 20 or newer (MSYS2: mingw-w64-ucrt-x86_64-clang-tools-extra).
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 120
+SortIncludes: false
+AccessModifierOffset: -4
+AllowShortFunctionsOnASingleLine: Inline

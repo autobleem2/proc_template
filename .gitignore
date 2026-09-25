@@ -1,0 +1,18 @@
+# cmake output (build/, build_release/, build_win/, build_psc/, ...) and the packaged release
+/build*/
+/dist/
+
+# per-machine editor config
+/.vscode/
+/.claude/
+
+# stray build/OS artifacts, wherever they land
+*.o
+*.obj
+*.a
+*.exe
+*.pdb
+*.ilk
+compile_commands.json
+.DS_Store
+Thumbs.db
